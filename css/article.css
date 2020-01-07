@@ -1,0 +1,66 @@
+#baiviet{
+    margin-top: 101px;
+}
+article{
+    border: 0.5px solid;
+    width: 616px;
+}
+.user{
+    display: flex;
+    height: 60px;
+}
+.info-user{
+    padding: 10px 0px 10px 5px;
+}
+.avatar{
+    padding: 10px;
+    border-radius: 50%;
+}
+.location{
+    font-size: 12px;  
+}
+.option{
+    padding: 15px 0px 0px 5px;
+    margin-left: 445px;
+}
+.interactive{
+    padding: 10px;
+}
+.far{
+    padding: 0 5px;
+}
+.fas{
+    padding: 0 5px;
+}
+.liked{
+    padding: 5px;
+}
+.cmt{
+    border-top: 1px solid;
+}
+.cmt input {
+    padding: 5px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+input:focus {
+    outline: none;
+}
+.caption{
+    padding: 5px;
+}
+.interactive button{
+    float: right;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: white;
+    outline: none;
+}
+.cmt a{
+    text-decoration: none;
+    color: blue;
+}

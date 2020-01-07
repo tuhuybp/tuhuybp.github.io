@@ -1,0 +1,42 @@
+.story-box{
+    width: 293px;
+    height: 223px;
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+    overflow: auto;
+    margin: 40px 0 10px 20px;
+}
+.header-box{
+    display: flex;
+    height: 35px;
+    flex-direction: row;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.name-box{
+    flex-grow: 1;
+    padding: 10px;
+    color: #737070;
+}
+.show-all{
+    padding: 10px;
+}
+.story-user{
+    display: flex;
+}
+.avatar-img{
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+.info{
+    flex-grow: 1;
+    padding: 5px 0px;
+}
+.info .name-user{
+    font-size: 14px;
+}
+.info .time{
+    font-size: 12px;
+}

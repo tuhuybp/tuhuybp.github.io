@@ -1,0 +1,7 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 23% 34% 20% 23%;
+}
+.header{
+    grid-column: 1/5;
+}
